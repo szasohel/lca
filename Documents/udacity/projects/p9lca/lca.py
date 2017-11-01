@@ -18,8 +18,7 @@ def push_left(node, new_data):
     node.left = new_node
     return new_node
 
-# Function to find LCA of n1 and n2. The function assumes
-# that both n1 and n2 are present in BST
+# Function to find LCA of n1 and n2. 
 def lca(head, n1, n2):
     # Base Case
     if head is None:
